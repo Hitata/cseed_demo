@@ -1,0 +1,458 @@
+.jb-weather-widget-3 html, .jb-weather-widget-3  body, .jb-weather-widget-3  div, .jb-weather-widget-3  span, .jb-weather-widget-3  applet, .jb-weather-widget-3  object, .jb-weather-widget-3  iframe, .jb-weather-widget-3  h1, .jb-weather-widget-3  h2, .jb-weather-widget-3  h3, .jb-weather-widget-3  h4, .jb-weather-widget-3  h5, .jb-weather-widget-3  h6, .jb-weather-widget-3  p, .jb-weather-widget-3  blockquote, .jb-weather-widget-3  pre, .jb-weather-widget-3  a, .jb-weather-widget-3  abbr, .jb-weather-widget-3  acronym, .jb-weather-widget-3  address, .jb-weather-widget-3  big, .jb-weather-widget-3  cite, .jb-weather-widget-3  code, .jb-weather-widget-3  del, .jb-weather-widget-3  dfn, .jb-weather-widget-3  em, .jb-weather-widget-3  img, .jb-weather-widget-3  ins, .jb-weather-widget-3  kbd, .jb-weather-widget-3  q, .jb-weather-widget-3  s, .jb-weather-widget-3  samp, .jb-weather-widget-3  small, .jb-weather-widget-3  strike, .jb-weather-widget-3  strong, .jb-weather-widget-3  sub, .jb-weather-widget-3  sup, .jb-weather-widget-3  tt, .jb-weather-widget-3  var, .jb-weather-widget-3  b, .jb-weather-widget-3  u, .jb-weather-widget-3  i, .jb-weather-widget-3  center, .jb-weather-widget-3  dl, .jb-weather-widget-3  dt, .jb-weather-widget-3  dd, .jb-weather-widget-3  ol, .jb-weather-widget-3  ul, .jb-weather-widget-3  li, .jb-weather-widget-3  fieldset, .jb-weather-widget-3  form, .jb-weather-widget-3  label, .jb-weather-widget-3  legend, .jb-weather-widget-3  table, .jb-weather-widget-3  caption, .jb-weather-widget-3  tbody, .jb-weather-widget-3  tfoot, .jb-weather-widget-3  thead, .jb-weather-widget-3  tr, .jb-weather-widget-3  th, .jb-weather-widget-3  td, .jb-weather-widget-3 
+.jb-weather-widget-3 article, .jb-weather-widget-3  aside, .jb-weather-widget-3  canvas, .jb-weather-widget-3  details, .jb-weather-widget-3  embed, .jb-weather-widget-3  figure, .jb-weather-widget-3  figcaption, .jb-weather-widget-3  footer, .jb-weather-widget-3  header, .jb-weather-widget-3  hgroup, .jb-weather-widget-3  menu, .jb-weather-widget-3  nav, .jb-weather-widget-3  output, .jb-weather-widget-3  ruby, .jb-weather-widget-3  section, .jb-weather-widget-3  summary, .jb-weather-widget-3  time, .jb-weather-widget-3  mark, .jb-weather-widget-3  audio, .jb-weather-widget-3  video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+.jb-weather-widget-3 article, .jb-weather-widget-3  aside, .jb-weather-widget-3  details, .jb-weather-widget-3  figcaption, .jb-weather-widget-3  figure, .jb-weather-widget-3  footer, .jb-weather-widget-3  header, .jb-weather-widget-3  hgroup, .jb-weather-widget-3  menu, .jb-weather-widget-3  nav, .jb-weather-widget-3  section { display: block; }
+.jb-weather-widget-3 body { line-height: 1; }
+.jb-weather-widget-3 ol, .jb-weather-widget-3  ul { list-style: none;}
+.jb-weather-widget-3 blockquote, .jb-weather-widget-3  q { quotes: none; }
+.jb-weather-widget-3 blockquote:before, .jb-weather-widget-3  blockquote:after, .jb-weather-widget-3  q:before, .jb-weather-widget-3  q:after { content: ''; content: none; }
+.jb-weather-widget-3 table { border-collapse: collapse; border-spacing: 0; }
+.jb-weather-widget-3 p {margin:0 !important;}
+/* ------------------------ RESETS END ------------------------ */
+
+
+/* ---------------- FRONT CONTENT STYLES START ---------------- */
+
+.jb-weather-widget-3 { display:none; height:200px; border-radius:4px; overflow: hidden;}
+
+.jb-weather-widget-3 .ww3_container { width:100%; min-width:180px; height:200px; float:left; background-color:#e35a36; float:left; }
+.jb-weather-widget-3 .ww3_container_back { width:100%; min-width:180px; height:200px; ; background-color:#282828; float:left; }
+
+.jb-weather-widget-3 .ww3_content_wrapper { width:100%; height:200px; text-align:center; margin:0 auto; }
+
+.jb-weather-widget-3 .ww3_big_icon { float:left; width: 100%; min-width:180px; margin-top:20px;  }
+
+.jb-weather-widget-3 .ww3_front_degree { float:left; width: 100%; min-width:180px; margin-top:15px;}
+.jb-weather-widget-3 .ww3_front_degree p { font-family:Arial, Helvetica, sans-serif; font-size:30px !important; color:#fff; line-height:30px !important;}
+
+.jb-weather-widget-3 .ww3_location { float:left; width: 100%; min-width:150px; margin-top:5px; }
+.jb-weather-widget-3 .ww3_location p { font-family:Arial, Helvetica, sans-serif; font-size:10px !important; text-transform:uppercase;  color:#fff;  padding:10px;}
+
+/* ---------------- BACK CONTENT STYLES START ---------------- */
+
+.jb-weather-widget-3 .ww3_data_content_wrapper {  width:100%; height:200px; text-align:center; margin:0 auto;  }
+
+.jb-weather-widget-3 .ww3_data_header { width:100%; min-width:180px; height:35px; background-color:#e35a36; float:left;  }
+.jb-weather-widget-3 .ww3_data_header p { font-family:Arial, Helvetica, sans-serif; font-size:10px !important; text-transform:uppercase; color:#fff; line-height:38px !important; text-align:center; }
+
+.jb-weather-widget-3 .ww3_data_4day_list { width:100%; min-width:180px; float:left;}
+
+.jb-weather-widget-3 .ww3_data_day { width:100%; min-width:180px; float:left; height:37px;}
+.jb-weather-widget-3 .ww3_data_day_icon { width:21px; height:21px; float:left; margin-top:8px; margin-left:5px;}
+
+.jb-weather-widget-3 .ww3_data_day_date { width: 75px; float:left; height:37px; line-height:37px !important; }
+.jb-weather-widget-3 .ww3_data_day_date p { line-height:37px !important; font-family:Arial, Helvetica, sans-serif; font-size:10px !important; color:#dddcdb; text-align:left; text-indent:5px; }
+
+.jb-weather-widget-3 .ww3_data_day_degree { float:right; height:37px; line-height:37px !important; margin-right:5px; }
+.jb-weather-widget-3 .ww3_data_day_degree p { line-height:37px !important; font-family:Arial, Helvetica, sans-serif; font-size:10px !important; color:#dddcdb; text-align:left; }
+
+.jb-weather-widget-3 .ww3_back_footer { width:100%; min-width:180px; height:20px; float:left; }
+.jb-weather-widget-3 .ww3_back_footer p { font-family:Arial, Helvetica, sans-serif; font-size:8px !important; float:left; margin-left:5px !important; line-height:20px !important; }
+.jb-weather-widget-3 .ww3_back_footer p a { color:#696969; text-decoration:none; }
+.jb-weather-widget-3 .ww3_back_footer p a:hover { color:#fff; }
+
+/* ---------------- ICONS ---------------- */
+
+.jb-weather-widget-3 .ww3_big_icon span {
+    width:100%; 
+    height:84px;
+    display: block;
+}
+
+/* Big White */
+.jb-weather-widget-3 .ww3_big_icon .whitena {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/no_info.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitepartlycloudy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/partlycloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitecloudy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/cloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitefog {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/fog.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whiterainy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/rainy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitesleet {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/sleet.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitesnowly {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/snowly.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitesunny {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/sunny.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitethunder {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/thunder.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitewind {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/wind.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whiteclearnight {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/clear-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .whitepartlycloudynight {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_white/partly-cloudy-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+
+/* Big Black */
+.jb-weather-widget-3 .ww3_big_icon .blackna {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/no_info.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackpartlycloudy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/partlycloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackcloudy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/cloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackfog {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/fog.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackrainy {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/rainy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blacksleet {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/sleet.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blacksnowly {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/snowly.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blacksunny {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/sunny.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackthunder {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/thunder.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackwind {
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/wind.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackclearnight{
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/clear-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_big_icon .blackpartlycloudynight{
+    width:100%; 
+    height:84px;
+    background-image: url("../img/big_icons_black/partly-cloudy-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+
+
+.jb-weather-widget-3 .ww3_data_day_icon span {
+    width:100%; 
+    height:21px;
+    display: block;
+}
+
+/* Small White */
+.jb-weather-widget-3 .ww3_data_day_icon .whitena {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/no_info.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitepartlycloudy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/partlycloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitecloudy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/cloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitefog {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/fog.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whiterainy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/rainy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitesleet {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/sleet.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitesnowly {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/snowly.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitesunny {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/sunny.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitethunder {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/thunder.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitewind {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/wind.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whiteclearnight {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/clear-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .whitepartlycloudynight {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_white/partly-cloudy-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+
+/* Small Black */
+.jb-weather-widget-3 .ww3_data_day_icon .blackna {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/no_info.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackpartlycloudy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/partlycloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackcloudy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/cloudy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackfog {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/fog.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackrainy {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/rainy.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blacksleet {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/sleet.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blacksnowly {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/snowly.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blacksunny {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/sunny.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackthunder {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/thunder.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackclearnight {
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/clear-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackwind{
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/wind.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+.jb-weather-widget-3 .ww3_data_day_icon .blackpartlycloudynight{
+    width:100%; 
+    height:21px;
+    background-image: url("../img/small_icons_black/partly-cloudy-night.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
